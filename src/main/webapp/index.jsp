@@ -12,7 +12,7 @@
 <div class="container mt-5">
     <div class="card shadow-lg">
         <div class="card-header bg-primary text-white">
-            <h2>Welcome to Manjunath Java Web Application</h2>
+            <h2>Welcome to KATTA Manjunath Java Web Application</h2>
         </div>
         <div class="card-body">
             <p class="lead">Today's date and time: <strong><%= new Date() %></strong></p>
