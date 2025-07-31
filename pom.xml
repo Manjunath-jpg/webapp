@@ -12,7 +12,7 @@
 
   <properties>
     <java.version>17</java.version>
-    <sonar.host.url>http://13.233.250.23:9000</sonar.host.url>
+    <sonar.host.url>http://3.110.170.135:9000</sonar.host.url>
     <sonar.login>admin</sonar.login>
     <sonar.password>sonar</sonar.password>
   </properties>
