@@ -19,5 +19,10 @@ pipeline{
                 }
             }
         }
+        stage('tomcatdeploy'){
+            steps{
+                deploy adapters: [tomcat9(alternativeDeploymentContext: '', credentialsId: 'tomcat-crd', path: '', url: 'http://13.201.3.110:8080/')], contextPath: 'mywebapp', war: 'target/mywebapp.war'
+            }
+        }
     }
 }
