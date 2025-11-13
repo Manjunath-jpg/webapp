@@ -1,6 +1,4 @@
 hello 
-<<<<<<< HEAD
 how are you
-=======
 everything is ok
->>>>>>> e679859 (new line is added in f1.txt)
+
