@@ -1,9 +1,6 @@
 hello 
 how are you
 everything is ok
-<<<<<<< HEAD
 rebase
-=======
 
 i am adding new line
->>>>>>> 766ab70 (again)
