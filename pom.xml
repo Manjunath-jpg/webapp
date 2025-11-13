@@ -9,13 +9,12 @@
   <version>1.0-SNAPSHOT</version>
   <name>mywebapp Maven Webapp</name>
   <url>http://maven.apache.org</url>
-
-  <properties>
-    <java.version>17</java.version>
-    <sonar.host.url>http://13.233.48.30:9000/</sonar.host.url>
-    <sonar.login>admin</sonar.login>
-    <sonar.password>sonar</sonar.password>
-  </properties>
+  <distributionManagement>
+    <repository>
+         <id>nexus</id>
+         <name>nexus-maven-release</name>
+         <url>http://192.168.88.6:8081/repository/nexus-maven-release/</url>
+    </repository>
 
   <dependencies>
     <dependency>
